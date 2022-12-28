@@ -74,3 +74,6 @@ clearE1.addEventListener("click", () => {
     ctx.clearRect(0,0,canvas.width,canvas.height);
 });
 
+function updateSizeOnScreen(){
+    sizeE1.innerText = size;
+}
